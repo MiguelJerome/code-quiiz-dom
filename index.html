@@ -9,16 +9,19 @@
     </head> 
  
     <body class = "output-body" id ="output-body"> 
+  <!-- Title bar of the Highest Scores with player name and the timer of the quiz-->      
         <header>
         <h3 class="leaderboard-html" id="leaderboard-html"></h3><h3 class="timer-html" id="timer-html"></h3>
         </header>
 
         <section>
-        <h1 class ="quiz-title-screen" id ="quiz-title-screen"></h1>
-        <p class ="p-line1" id ="p-line1"></p>
-        <p class ="p-line2" id ="p-line2"></p>
-        <p class ="p-line3" id ="p-line3"></p>
-        
+<!-- Menu info and question ouput-->
+        <h1 class ="quiz-info-question-title" id ="quiz-info-question-title"></h1>
+        <p class ="quiz-info-question-line1" id ="quiz-info-question-line1"></p>
+        <p class ="quiz-info-question-line2" id ="quiz-info-question-line2"></p>
+        <p class ="quiz-info-question-line3" id ="quiz-info-question-line3"></p>
+   
+<!-- Menu button question choice -->     
         <ul class ="menu-choice" id ="menu-choice">
             <li class="start-quiz-button" id="start-quiz-button"></li>
             <li class="quiz-button1" id="quiz-button1"></li>
@@ -26,10 +29,14 @@
             <li class="quiz-button3" id="quiz-button3"></li>
             <li class="quiz-button4" id="quiz-button4"></li>
         </ul>
+        
+<!-- Menu button question choice -->      
             <form class = "form-initale-player" mb-3>
             <label for ="input-text" id="text-input-submit" class="text-input-submit">Enter initials :</label>
             <input type="text" id ="input-text" class="input-text">
             <input type="submit" class="button-submit" id ="button-submit" value="submit">
+
+<!-- Info for player on the conditon of his answer -->      
             <h4 class ="answer_Condition" id ="answer_Condition"></h4>
             </form>
         
