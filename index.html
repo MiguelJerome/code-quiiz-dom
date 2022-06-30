@@ -14,7 +14,7 @@
         <h3 class="leaderboard-html" id="leaderboard-html"></h3><h3 class="timer-html" id="timer-html"></h3>
         </header>
 
-        <section>
+        <section class = text-widget-layout id = "text-widget-layout">
 <!-- Menu info and question ouput-->
         <h1 class ="quiz-info-question-title" id ="quiz-info-question-title"></h1>
         <p class ="quiz-info-question-line1" id ="quiz-info-question-line1"></p>
@@ -35,12 +35,17 @@
             <label for ="input-text" id="text-input-submit" class="text-input-submit">Enter initials :</label>
             <input type="text" id ="input-text" class="input-text">
             <input type="submit" class="button-submit" id ="button-submit" value="submit">
+        </form>
+<!-- Info for player on the conditon of his answer --> 
 
-<!-- Info for player on the conditon of his answer -->      
+<div class ="horizontal-line" id ="horizontal-line"></div> 
+        <section class = "condition-layout" id = "condition-layout">
+                
             <h4 class ="answer_Condition" id ="answer_Condition"></h4>
-            </form>
-        
         </section>
+            
+        
+        
        
 <!--All the script Menus-->
         <script src="./assets/js/menu/menu.js"></script>
@@ -67,6 +72,9 @@
 
 <!--The script input Submit Interface-->
         <script src="./assets/js/inputSubmitInterface.js"></script>
+
+<!--The script Game Main-->
+        <script src="./assets/js/gamemain.js"></script>
 
 <!--The script main-->
         <script src="./assets/js/script.js"></script>
